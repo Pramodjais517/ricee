@@ -65,7 +65,7 @@ const Review = () => {
               className=" w-[63px]  sm:h-[4.2vh] self-start "
             />
             <div className="  w-[38vw]  text-center self-center ">
-              Bought 13 kg kalanamak from them, amazing quality and very aromatic. Definitely recommend if you are looking to buy authentic kalanamak with great quality
+              Bought 13 kg kalanamak from P&B Agro foods, amazing quality and very aromatic. Definitely recommend if you are looking to buy authentic kalanamak with great quality.
             </div>
             <img
               src="comma2.svg"
@@ -87,7 +87,7 @@ const Review = () => {
               className=" w-[63px]  sm:h-[4.2vh] self-start "
             />
             <div className="  w-[38vw]  text-center self-center ">
-            I recently tried the kalanamak rice from P&B Agro foods. It had a great aroma, delicious taste, and is a must try for anyone who appreciates a well-cooked rice dish. Highly recommended
+            I recently tried the kalanamak rice from P&B Agro foods. It had a great aroma, delicious taste, and is a must try for anyone who appreciates a well-cooked rice dish. Highly recommended.
             </div>
             <img
               src="comma2.svg"
@@ -108,7 +108,7 @@ const Review = () => {
               className=" w-[63px]  sm:h-[4.2vh] self-start "
             />
             <div className="  w-[38vw]  text-center self-center ">
-            Excellent and superb in taste wise .i am sppechless after eating first bite of kalanamk rice,aweßome!!!
+            Excellent and superb in taste.I am sppechless after eating first bite of kalanamk rice,awesome!!!
             </div>
             <img
               src="comma2.svg"
