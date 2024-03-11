@@ -51,8 +51,8 @@ function Products() {
 <Image src={design} className='absolute lg:hidden right-0 top-[8rem] rotate-180'/>
 <div className='mt-[5rem]'>
 <div className='mx-[-7.5rem] flex gap-[6rem] md1:my-[-13rem] lg:my-[-6rem] transform mob:scale-70 mob:my-[-14.5rem] lg:scale-75 scale-90 my-[-2.75rem] items-center justify-center flex-wrap'>
-    <Product imagesData={imagesData1} price={416} weight={2} background={background1} text1={'1KG Pack - Handy and Convenient'} />
-    <Product imagesData={imagesData} price={2126} weight={5} background={background2} text1={'5KG Pack - For Rice Enthusiasts'} />
+    <Product imagesData={imagesData1} price={349} discount={0.143}weight={2} background={background1} text1={'Premium Kalanamak Rice - 1kg'} />
+    <Product imagesData={imagesData} price={1745} discount={0.20} weight={5} background={background2} text1={'Premium Kalanamak Rice - 5kg'} />
 
 </div>
 </div>

@@ -8,7 +8,7 @@ import bg from '../../public/prod-bg.svg'
 import rice1 from '../../public/rice1.jpeg'
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-function Product({ background, weight, text1, price, imagesData }) {
+function Product({ background, weight, text1, price, imagesData, discount}) {
   const [nutri, setNutri] = useState(false);
   const [active, setActive] = useState(false);
   const[showPopup,setShowPopup]=useState(false)
@@ -69,7 +69,7 @@ Rich in Iron & Zinc<br/>Diabetic friendly (GI {'<'} 55)<br/>Rich in Antioxidants
 Limited offer
     </div>
   <div className="flex items-top leading-[3.5rem] text-[3.5rem]">
-  <span className="text-[1.25rem] leading-5">₹</span>{(price-price*0.4).toFixed(0)}<div className="flex pl-2 items-end"><span className="text-[#515151] leading-[2.5rem]  text-[1.5rem]"><span className="decoration-2 line-through">₹{price}</span> <span className="text-mar">40% off</span></span></div>
+  <span className="text-[1.25rem] leading-5">₹</span>{(price-price*discount).toFixed(0)}<div className="flex pl-2 items-end"><span className="text-[#515151] leading-[2.5rem]  text-[1.5rem]"><span className="decoration-2 line-through">₹{price}</span> <span className="text-mar">{(100 * discount).toFixed(0)}% off</span></span></div>
   </div>
   <span className="text-[#515151] text-[1.25rem]">FREE Delivery</span></div>
   <Link target="_blank" href={`https://wa.me/919540182525?text=Place+an+order+for+${weight==2?'1kg':'5kg'}+pack`}>
