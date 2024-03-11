@@ -11,7 +11,7 @@ const Review = () => {
       setCrouselF((prev) => (prev + 1) % 3);
       setCrouselS((prev) => (prev + 1) % 3);
       setCrouselT((prev) => (prev + 1) % 3);
-    }, 2000);
+    }, 5000);
 
     return () => {
       clearInterval(intervalId);
@@ -65,9 +65,7 @@ const Review = () => {
               className=" w-[63px]  sm:h-[4.2vh] self-start "
             />
             <div className="  w-[38vw]  text-center self-center ">
-              Ricee has seamlessly woven itself into the fabric of my kitchen,
-              establishing its role as an indispensable culinary companion. I
-              prepared.. Its exceptional standard consistently
+              Bought 13 kg kalanamak from them, amazing quality and very aromatic. Definitely recommend if you are looking to buy authentic kalanamak with great quality
             </div>
             <img
               src="comma2.svg"
@@ -89,8 +87,7 @@ const Review = () => {
               className=" w-[63px]  sm:h-[4.2vh] self-start "
             />
             <div className="  w-[38vw]  text-center self-center ">
-              I can definitely say Ricee exceeded my expectations. The 5KG pack
-              lasted me the entire month and the rice quality was exceptional.
+            I recently tried the kalanamak rice from P&B Agro foods. It had a great aroma, delicious taste, and is a must try for anyone who appreciates a well-cooked rice dish. Highly recommended
             </div>
             <img
               src="comma2.svg"
@@ -111,9 +108,7 @@ const Review = () => {
               className=" w-[63px]  sm:h-[4.2vh] self-start "
             />
             <div className="  w-[38vw]  text-center self-center ">
-              Ricee has truly become a kitchen staple for me. The generous 5KG
-              pack not only lasted the entire month, but its exceptional quality
-              elevated every meal I prepared.
+            Excellent and superb in taste wise .i am sppechless after eating first bite of kalanamk rice,aweßome!!!
             </div>
             <img
               src="comma2.svg"
