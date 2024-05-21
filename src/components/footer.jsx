@@ -22,6 +22,10 @@ const Footer = () => {
             <span className=" block">
               &nbsp;&nbsp;&nbsp;&nbsp; Siddharthnagar, Uttar Pradesh, India
             </span>
+            <br></br>
+            <span className=" block">
+              &nbsp;&nbsp;&nbsp;&nbsp; Disclaimer - For bulk order prices may vary from the above listed price.
+            </span>
           </div>
         </div>
       </div>

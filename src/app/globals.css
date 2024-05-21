@@ -54,6 +54,11 @@ body{
 
 }
 
+.crouselFr {
+  position: relative;
+
+}
+
 @media (max-width:639px) {
   .crouselF {
     position: absolute;
