@@ -14,13 +14,13 @@ function Products() {
     {
       id:1,
       src: background4.src,
-      title:" Grains of Goodness: Elevate Your Plate with Our Premium Rice Selection!"
+      title:" Grains of Goodness: Elevate your plate with our premium Kalanamak rice!"
       
     },
     {
       id:2,
       src: background5.src,
-      title:" Grains of Goodness: Elevate Your Plate with Our Premium Rice Selection!"
+      title:" Grains of Goodness: Elevate your plate with our premium Kalanamak rice!"
       
     },
   ]
@@ -28,13 +28,13 @@ function Products() {
     {
       id:1,
       src: background2.src,
-      title:" Grains of Goodness: Elevate Your Plate with Our Premium Rice Selection!"
+      title:" Grains of Goodness: Elevate your plate with our premium Kalanamak rice!"
       
     },
     {
       id:2,
       src: background3.src,
-      title:" Grains of Goodness: Elevate Your Plate with Our Premium Rice Selection!"
+      title:" Grains of Goodness: Elevate your plate with our premium Kalanamak rice!"
       
     },
   ]

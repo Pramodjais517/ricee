@@ -24,7 +24,7 @@ const Footer = () => {
             </span>
             <br></br>
             <span className=" block">
-              &nbsp;&nbsp;&nbsp;&nbsp; Disclaimer - For bulk order prices may vary from the above listed price.
+              &nbsp;&nbsp;&nbsp;&nbsp; Disclaimer: For bulk orders, prices may vary from the above-mentioned prices
             </span>
           </div>
         </div>

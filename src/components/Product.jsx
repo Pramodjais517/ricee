@@ -76,7 +76,7 @@ Limited offer
   <button
               className={`transition-hover duration-300 hover:bg-white hover:text-mar border border-mar w-[8.8rem] h-[3.5rem] bg-mar rounded-[0.75rem] text-[1.125rem] text-white`}
             >
-              Buy now
+              Order now
             </button>
             </Link>
 </div>

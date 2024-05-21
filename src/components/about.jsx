@@ -47,10 +47,10 @@ const About = () => {
                 of Nepal and India. Its name means black husk (Kala = black; the
                 suffix ‘namak’ means salt). This variety has been in cultivation
                 since the Buddhist period (600 BC). It was featured in the book
-                Speciality rices of the world by the Food and Agriculture
-                Organization of the United Nations. Chinese monk Faxian wrote
-                that when Buddha visited Kapilvastu for the first time after
-                attaining enlightenment’, villagers asked him for Prasad (Gift),
+                <b> Speciality rices of the world</b> by the Food and Agriculture
+                Organization of the <b>United Nations</b>. Chinese monk Faxian wrote
+                that when Buddha visited Kapilvastu (Siddharthnagar) for the first time after
+                attaining enlightenment’, villagers asked him for "Prasad" means Gift,
                 Buddha gave them some grains of kalanamak rice and asked them to
                 sow in marshy land and said, &quot;It will have a typical aroma
                 and will always remind people of me&quot;. It was granted the
@@ -74,13 +74,13 @@ const About = () => {
                 P&B Agro Foods brings you the original and quality Kalanamak
                 rice from the lands of Siddharthnagar. We are on a mission to
                 let the world know about Kalanamak rice and its health benefits.
-                Due to lack of research and change in soil conditions due to
-                excess use of fertilizers, over the years, the yield of this
+                Due to lack of research, change in soil conditions, and
+                excess use of fertilizers over the years, the yield of this
                 rice has reduced significantly. We have the vision to increase
                 the cultivation of kalanamak rice by assisting and supporting
                 our farmers. We help them monitor crops at defined intervals and
-                take necessary steps if required. P&B aims to become a trustable
-                and reliable organization both for our farmers and customers.
+                take necessary steps if required. P&B agro foods aims to become 
+                a trustable and reliable organization both for our farmers and customers.
               </div>
               <div className=" w-[40%] min-w-[321px] ">
                 <img src="new2.jpg" className=" rounded-[30px] " />
@@ -120,14 +120,13 @@ const About = () => {
             </svg>
           </div>
           <div className="text-center">
-            <span className=" font-bold ">At P&B Agro Foods,</span> we envision a future
-            where every household embraces the nourishing goodness of our
-            premium rice varieties. Our commitment is to be the preferred choice
-            for families seeking quality, authenticity, and sustainability in
-            their daily meals. Through innovative practices, ethical sourcing,
-            and a relentless pursuit of excellence, we aim to redefine the
-            standard for premium rice, contributing to healthier lives and a
-            sustainable planet.
+            <span className=" font-bold ">At P&B Agro Foods,</span> we envision a future where every household embraces the nourishing goodness of our Kalanamak rice varieties. 
+            Our dedication to quality, authenticity, and sustainability sets us apart as the preferred choice for families who value excellence in their daily meals.
+            <br></br>
+            We are committed to innovative practices and ethical sourcing, striving to redefine the standard for Kalanamak rice. <br></br>
+            Our relentless pursuit of excellence ensures that each grain of rice contributes to healthier lives and a more sustainable planet.
+            <br></br>
+            Join us on our journey to make every meal a celebration of taste and well-being with P&B Agro Foods.
           </div>
         </div>
       </div>
@@ -136,3 +135,4 @@ const About = () => {
 };
 
 export default About;
+

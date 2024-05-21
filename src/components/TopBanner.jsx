@@ -13,7 +13,7 @@ function TopBanner() {
     {
       id:1,
       src: background.src,
-      title:" Grains of Goodness: Elevate Your Plate with Our Premium Rice Selection!"
+      title:" Grains of Goodness: Elevate your plate with our premium Kalanamak rice!"
       
     },
     // {

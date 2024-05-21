@@ -65,8 +65,7 @@ const Review = () => {
               className=" w-[63px]  sm:h-[4.2vh] self-start "
             />
             <div className="  w-[38vw]  text-center self-center ">
-              Bought 13 kg kalanamak from P&B Agro foods, amazing quality and very aromatic. Definitely recommend if you are looking to buy authentic kalanamak with great quality.
-            </div>
+            I bought 13 kg of Kalanamak rice from P&B Agro Foods. The quality is amazing and very aromatic. I definitely recommend it if you are looking to buy authentic Kalanamak rice with great quality.            </div>
             <img
               src="comma2.svg"
               className=" w-[63px] h-[53px] self-end md1:w-[70px]  sm:h-[4.2vh]"
@@ -108,7 +107,7 @@ const Review = () => {
               className=" w-[63px]  sm:h-[4.2vh] self-start "
             />
             <div className="  w-[38vw]  text-center self-center ">
-            I tried kheer of Kalanamak rice and it was delicious. Strongly recommended for kheer.
+            I tried kheer of Kalanamak rice, and it was delicious. Strongly recommended for kheer.
             </div>
             <img
               src="comma2.svg"
