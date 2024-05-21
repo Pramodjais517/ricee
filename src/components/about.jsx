@@ -50,7 +50,7 @@ const About = () => {
                 <b> Speciality rices of the world</b> by the Food and Agriculture
                 Organization of the <b>United Nations</b>. Chinese monk Faxian wrote
                 that when Buddha visited Kapilvastu (Siddharthnagar) for the first time after
-                attaining enlightenment’, villagers asked him for "Prasad" means Gift,
+                attaining enlightenment, villagers asked him for "Prasad" means Gift,
                 Buddha gave them some grains of kalanamak rice and asked them to
                 sow in marshy land and said, &quot;It will have a typical aroma
                 and will always remind people of me&quot;. It was granted the
