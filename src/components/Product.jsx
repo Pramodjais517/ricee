@@ -72,7 +72,7 @@ Limited offer
   <span className="text-[1.25rem] leading-5">₹</span>{(price-price*discount).toFixed(0)}<div className="flex pl-2 items-end"><span className="text-[#515151] leading-[2.5rem]  text-[1.5rem]"><span className="decoration-2 line-through">₹{price}</span> <span className="text-mar">{(100 * discount).toFixed(0)}% off</span></span></div>
   </div>
   <span className="text-[#515151] text-[1.25rem]">FREE Delivery</span></div>
-  <Link target="_blank" href={`https://wa.me/919540182525?text=Place+an+order+for+${weight==2?'1kg':'5kg'}+pack`}>
+  <Link target="_blank" href={`https://wa.me/919540182525?text=Hey!+I+am+interested+in+purchasing ${weight==2?'1kg':'5kg'}+pack+of+Kalanamak+Rice.`}>
   <button
               className={`transition-hover duration-300 hover:bg-white hover:text-mar border border-mar w-[8.8rem] h-[3.5rem] bg-mar rounded-[0.75rem] text-[1.125rem] text-white`}
             >
