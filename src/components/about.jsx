@@ -39,29 +39,28 @@ const About = () => {
           </div>
           <div className=" flex flex-col w-[100%] gap-[15px]">
             <h2 className=" text-[2.1rem] leading-[65px] tracking-[1.5px]  text-[#181717] md1:self-center">
-              About Kalanamak Rice
+              About Kalanamak Rice (Buddha Rice)
             </h2>
             <div className=" flex flex-row-reverse gap-[40px] w-[100%] items-center md1:flex-col-reverse">
               <div className=" self-start w-[60%] md1:text-center md1:w-[100%]">
-                <span className=" font-bold ">Kalanamak</span> is a scented rice
-                of Nepal and India. Its name means black husk (Kala = black; the
+                <span className=" font-bold ">Kalanamak rice</span> (also known as <strong>Buddha rice</strong>) is a premium <strong>black aromatic rice</strong> and <strong>healthy rice</strong> variety
+                of Nepal and India. The name "Kalanamak" translates to "black salt" (Kala = black; the
                 suffix ‘namak’ means salt). This variety has been in cultivation
                 since the Buddhist period (600 BC). It was featured in the book
                 <b> Speciality rices of the world</b> by the Food and Agriculture
                 Organization of the <b>United Nations</b>. Chinese monk Faxian wrote
                 that when Buddha visited Kapilvastu (Siddharthnagar) for the first time after
-                attaining enlightenment, villagers asked him for &quot;Prasad&quot; means Gift,
-                Buddha gave them some grains of kalanamak rice and asked them to
-                sow in marshy land and said, &quot;It will have a typical aroma
-                and will always remind people of me&quot;. It was granted the
-                Geographical Indication (Gl) Tag in 2012 by the Government of
-                India. It is rich in micronutrients such as Iron and Zinc. It
-                has double protein that of common rice and has a low Glycemic
-                Index making it relatively sugar-Free and suitable for
-                diabetics.
+                attaining enlightenment, local villagers requested "Prasad" (a blessed gift),
+                Buddha blessed them with grains of <strong>kalanamak rice</strong> and instructed them to
+                cultivate it in marshy lands, saying, "It will possess a distinctive aroma
+                that will always remind people of me." In recognition of its cultural and agricultural significance, it was granted the
+                prestigious Geographical Indication (GI) Tag in 2012 by the Government of
+                India. This <strong>iron rich rice</strong> and <strong>zinc rich rice</strong> is exceptionally rich in essential micronutrients including iron and zinc. It
+                contains <strong>double the protein</strong> content compared to conventional rice varieties and maintains a <strong>low glycemic index</strong>, making it an ideal <strong>diabetic friendly rice</strong> choice for
+                individuals managing diabetes and those seeking healthier dietary options.
               </div>
               <div className=" w-[40%] min-w-[321px]  ">
-                <img src="new!.jpg" alt="Premium Kalanamak rice grains showcasing quality and authenticity" className=" rounded-[30px] " />
+                <img src="new!.jpg" alt="Premium Kalanamak rice Buddha rice black aromatic rice grains showcasing quality and authenticity" className=" rounded-[30px] " />
               </div>
             </div>
           </div>
@@ -71,16 +70,19 @@ const About = () => {
             </div>
             <div className=" flex gap-[40px] w-[100%] items-center md1:flex-col-reverse">
               <div className=" self-start w-[60%] md1:text-center md1:w-[100%]">
-                P&B Agro Foods brings you the original and quality Kalanamak
-                rice from the lands of Siddharthnagar. We are on a mission to
-                let the world know about Kalanamak rice and its health benefits.
-                Due to lack of research, change in soil conditions, and
-                excess use of fertilizers over the years, the yield of this
-                rice has reduced significantly. We have the vision to increase
-                the cultivation of kalanamak rice by assisting and supporting
-                our farmers. We help them monitor crops at defined intervals and
-                take necessary steps if required. P&B agro foods aims to become 
-                a trustable and reliable organization both for our farmers and customers.
+                P&B Agro Foods brings you authentic, premium-quality <strong>Kalanamak
+                rice</strong> (<strong>Buddha rice</strong>) directly from the fertile lands of Siddharthnagar. We are on a mission to
+                introduce the world to <strong>Kalanamak rice</strong> and its exceptional health benefits as the healthiest <strong>black aromatic rice</strong> variety available today.
+                
+                Over the years, factors such as limited research, changing soil conditions, and
+                excessive use of chemical fertilizers have significantly reduced the yield of this
+                precious grain. We envision a future where we can revive and increase
+                the cultivation of <strong>kalanamak rice</strong> by partnering with and supporting
+                our dedicated farmers. 
+                
+                Our approach includes regular crop monitoring, providing technical guidance,
+                and implementing sustainable farming practices when needed. P&B Agro Foods is committed to becoming 
+                a trusted and reliable partner for both our farmers and valued customers.
               </div>
               <div className=" w-[40%] min-w-[321px] ">
                 <img src="new2.jpg" className=" rounded-[30px] " />
@@ -120,13 +122,13 @@ const About = () => {
             </svg>
           </div>
           <div className="text-center">
-            <span className=" font-bold ">At P&B Agro Foods,</span> we envision a future where every household embraces the nourishing goodness of our Kalanamak rice varieties. 
-            Our dedication to quality, authenticity, and sustainability sets us apart as the preferred choice for families who value excellence in their daily meals.
+            <span className=" font-bold ">At P&B Agro Foods,</span> we envision a future where every household experiences the exceptional nutritional benefits of authentic Kalanamak rice varieties. 
+            Our unwavering commitment to quality, authenticity, and sustainable farming practices positions us as the trusted choice for health-conscious families seeking premium rice.
             <br></br>
-            We are committed to innovative practices and ethical sourcing, striving to redefine the standard for Kalanamak rice. <br></br>
-            Our relentless pursuit of excellence ensures that each grain of rice contributes to healthier lives and a more sustainable planet.
+            We are dedicated to innovative agricultural techniques and ethical sourcing, continuously working to set new benchmarks in the Kalanamak rice industry. <br></br>
+            Through our relentless pursuit of excellence, we ensure that every grain of rice we deliver contributes to healthier lifestyles and environmental sustainability.
             <br></br>
-            Join us on our journey to make every meal a celebration of taste and well-being with P&B Agro Foods.
+            Join us in our mission to transform every meal into a celebration of authentic taste, superior nutrition, and holistic well-being.
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div
       id="location"
-      className=" relative flex justify-between mt-[24.3vh] mob1:mt-[17.9vh] w-[100vw]  bg-[#FFE6CE] text-[#000] pt-[6.3vh] pr-[9.09vw] pl-[7.22VW] text-[1.25rem] font-gd font-[400] leading-[30px] tracking-[0.6px] not-italic overflow-hidden  whitespace-nowrap  md:flex-col md:gap-[80px] pb-[7.3vh]  mob1:text-[16px]"
+      className=" relative flex justify-between mt-[4rem] w-[100vw]  bg-[#FFE6CE] text-[#000] pt-[6.3vh] pr-[9.09vw] pl-[7.22VW] text-[1.25rem] font-gd font-[400] leading-[30px] tracking-[0.6px] not-italic overflow-hidden  whitespace-nowrap  md:flex-col md:gap-[80px] pb-[7.3vh]  mob1:text-[16px]"
     >
       <div className=" flex flex-col gap-[24px] ">
         <div className=" flex flex-col gap-[24px]">
@@ -42,10 +42,15 @@ const Footer = () => {
           </div>
         </div>
         <div className="btn flex  gap-[29px]">
-          <img src="Instagram.svg" />
-          <img src="LinkedIn.svg" />
-          <img  src="Groupsss.svg" />
-          <img src="Facebook.svg" />
+          <a href="https://www.instagram.com/pbagrofoods" target="_blank" rel="noopener noreferrer">
+            <img src="Instagram.svg" alt="Instagram" className="cursor-pointer hover:opacity-80 transition-opacity" />
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100086049356486" target="_blank" rel="noopener noreferrer">
+            <img src="Facebook.svg" alt="Facebook" className="cursor-pointer hover:opacity-80 transition-opacity" />
+          </a>
+          <a href="https://wa.me/919540182525" target="_blank" rel="noopener noreferrer">
+            <img src="Groupsss.svg" alt="WhatsApp" className="cursor-pointer hover:opacity-80 transition-opacity" />
+          </a>
         </div>
       </div>
       <div className="bgHold relative">

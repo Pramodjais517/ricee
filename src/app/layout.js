@@ -6,9 +6,9 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Premium Kalanamak Rice | Buddha Rice | P&B Agro Foods - Aromatic & Healthy',
-  description: 'Buy premium Kalanamak rice (Buddha rice) online. Rich in protein, iron & zinc. Diabetic-friendly with low glycemic index. Aromatic scented rice from Nepal & India with GI tag certification.',
-  keywords: 'Kalanamak rice, Buddha rice, aromatic rice, scented rice, diabetic friendly rice, high protein rice, iron rich rice, zinc rich rice, premium rice, organic rice, healthy rice, P&B Agro Foods',
+  title: 'Premium Kalanamak Rice | Buddha Rice | Black Rice | Aromatic Healthy Rice - P&B Agro Foods',
+  description: 'Buy premium Kalanamak rice (Buddha rice) online - the healthiest black aromatic rice. Double protein, rich in iron & zinc. Diabetic-friendly with low glycemic index <55. GI tag certified from Nepal & India. Order now!',
+  keywords: 'kalanamak, kalanamak rice, buddha rice, black rice, healthy rice, aromatic rice, scented rice, diabetic friendly rice, high protein rice, iron rich rice, zinc rich rice, premium rice, organic rice, low glycemic rice, P&B Agro Foods, black salt rice, forbidden rice, antioxidant rice, mineral rich rice, ancient rice variety',
   authors: [{ name: 'P&B Agro Foods' }],
   creator: 'P&B Agro Foods',
   publisher: 'P&B Agro Foods',
@@ -17,21 +17,21 @@ export const metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://your-domain.com'), // Replace with your actual domain
+  metadataBase: new URL('https://www.pbagrofoods.in'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Premium Kalanamak Rice | Buddha Rice - Aromatic & Healthy',
-    description: 'Premium Kalanamak rice with double protein content, rich in iron & zinc. Diabetic-friendly aromatic rice with GI tag certification. Order online now!',
-    url: 'https://your-domain.com', // Replace with your actual domain
-    siteName: 'P&B Agro Foods',
+    title: 'Premium Kalanamak Rice | Buddha Rice | Black Rice - Healthiest Aromatic Rice',
+    description: 'Premium Kalanamak rice (Buddha rice) - the healthiest black aromatic rice with double protein, rich in iron & zinc. Diabetic-friendly with low glycemic index. GI tag certified. Order online now!',
+    url: 'https://www.pbagrofoods.in',
+    siteName: 'P&B Agro Foods - Premium Kalanamak Rice',
     images: [
       {
         url: '/hero 1.png',
         width: 1200,
         height: 630,
-        alt: 'Premium Kalanamak Rice - Buddha Rice',
+        alt: 'Premium Kalanamak Rice - Buddha Rice - Healthiest Black Aromatic Rice',
       },
     ],
     locale: 'en_US',
@@ -39,10 +39,10 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Premium Kalanamak Rice | Buddha Rice - Aromatic & Healthy',
-    description: 'Premium Kalanamak rice with double protein content, rich in iron & zinc. Diabetic-friendly aromatic rice with GI tag certification.',
+    title: 'Premium Kalanamak Rice | Buddha Rice | Black Rice - Healthiest Aromatic Rice',
+    description: 'Premium Kalanamak rice (Buddha rice) - healthiest black aromatic rice with double protein, rich in iron & zinc. Diabetic-friendly, low glycemic index.',
     images: ['/hero 1.png'],
-    creator: '@PBAgroFoods', // Replace with your Twitter handle
+    creator: '@PBAgroFoods',
   },
   robots: {
     index: true,
@@ -66,11 +66,25 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://your-domain.com" />
+        <link rel="canonical" href="https://www.pbagrofoods.in" />
         <meta name="geo.region" content="IN" />
         <meta name="geo.placename" content="India" />
         <meta name="geo.position" content="28.6139;77.2090" />
         <meta name="ICBM" content="28.6139, 77.2090" />
+        <meta name="theme-color" content="#762023" />
+        <meta name="msapplication-TileColor" content="#762023" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="P&B Agro Foods" />
+        <meta name="application-name" content="P&B Agro Foods" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="//www.google-analytics.com" />
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="//fonts.gstatic.com" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -79,37 +93,47 @@ export default function RootLayout({ children }) {
               "@graph": [
                 {
                   "@type": "Organization",
-                  "@id": "https://your-domain.com/#organization",
+                  "@id": "https://www.pbagrofoods.in/#organization",
                   "name": "P&B Agro Foods",
-                  "url": "https://your-domain.com",
+                  "url": "https://www.pbagrofoods.in",
                   "logo": {
                     "@type": "ImageObject",
-                    "url": "https://your-domain.com/logo.png",
+                    "url": "https://www.pbagrofoods.in/logo.png",
                     "width": 200,
                     "height": 60
                   },
-                  "description": "Premium Kalanamak rice supplier specializing in aromatic Buddha rice with health benefits",
+                  "description": "Premium Kalanamak rice (Buddha rice) supplier specializing in healthy black aromatic rice with exceptional nutritional benefits. Double protein content, rich in iron & zinc, diabetic-friendly with low glycemic index.",
+                  "foundingDate": "2020",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "IN",
+                    "addressRegion": "India"
+                  },
+                  "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "customer service",
+                    "availableLanguage": ["English", "Hindi"]
+                  },
                   "sameAs": [
-                    "https://facebook.com/your-page",
-                    "https://instagram.com/your-page",
-                    "https://linkedin.com/company/your-company"
+                    "https://www.facebook.com/profile.php?id=100086049356486",
+                    "https://www.instagram.com/pbagrofoods"
                   ]
                 },
                 {
                   "@type": "WebSite",
-                  "@id": "https://your-domain.com/#website",
-                  "url": "https://your-domain.com",
-                  "name": "P&B Agro Foods - Premium Kalanamak Rice",
-                  "description": "Buy premium Kalanamak rice online. Aromatic Buddha rice with health benefits.",
+                  "@id": "https://www.pbagrofoods.in/#website",
+                  "url": "https://www.pbagrofoods.in",
+                  "name": "P&B Agro Foods - Premium Kalanamak Rice | Buddha Rice | Black Rice",
+                  "description": "Buy premium Kalanamak rice (Buddha rice) online - the healthiest black aromatic rice with double protein, rich in iron & zinc. Diabetic-friendly with low glycemic index.",
                   "publisher": {
-                    "@id": "https://your-domain.com/#organization"
+                    "@id": "https://www.pbagrofoods.in/#organization"
                   },
                   "potentialAction": [
                     {
                       "@type": "SearchAction",
                       "target": {
                         "@type": "EntryPoint",
-                        "urlTemplate": "https://your-domain.com/search?q={search_term_string}"
+                        "urlTemplate": "https://www.pbagrofoods.in/search?q={search_term_string}"
                       },
                       "query-input": "required name=search_term_string"
                     }
@@ -117,18 +141,19 @@ export default function RootLayout({ children }) {
                 },
                 {
                   "@type": "Product",
-                  "@id": "https://your-domain.com/#kalanamak-rice",
-                  "name": "Premium Kalanamak Rice",
-                  "alternateName": ["Buddha Rice", "Black Salt Rice", "Scented Rice"],
-                  "description": "Premium Kalanamak rice with double protein content, rich in iron and zinc. Diabetic-friendly with low glycemic index.",
+                  "@id": "https://www.pbagrofoods.in/#kalanamak-rice",
+                  "name": "Premium Kalanamak Rice - Buddha Rice",
+                  "alternateName": ["Buddha Rice", "Black Rice", "Kalanamak Rice", "Black Salt Rice", "Scented Rice", "Aromatic Rice", "Healthy Rice", "Forbidden Rice"],
+                  "description": "Premium Kalanamak rice (Buddha rice) - the healthiest black aromatic rice with double protein content, rich in iron and zinc. Diabetic-friendly with low glycemic index under 55. Ancient variety with GI tag certification from Nepal and India.",
                   "brand": {
                     "@type": "Brand",
                     "name": "P&B Agro Foods"
                   },
-                  "category": "Food & Beverages > Grains & Rice",
+                  "category": "Food & Beverages > Grains & Rice > Specialty Rice",
                   "image": [
-                    "https://your-domain.com/rice1.jpeg",
-                    "https://your-domain.com/rice11.jpeg"
+                    "https://www.pbagrofoods.in/rice1.jpeg",
+                    "https://www.pbagrofoods.in/rice11.jpeg",
+                    "https://www.pbagrofoods.in/hero 1.png"
                   ],
                   "offers": {
                     "@type": "AggregateOffer",
@@ -136,28 +161,56 @@ export default function RootLayout({ children }) {
                     "lowPrice": "349",
                     "highPrice": "1745",
                     "offerCount": "2",
-                    "availability": "https://schema.org/InStock"
+                    "availability": "https://schema.org/InStock",
+                    "seller": {
+                      "@type": "Organization",
+                      "name": "P&B Agro Foods"
+                    }
                   },
                   "aggregateRating": {
                     "@type": "AggregateRating",
                     "ratingValue": "4.8",
-                    "reviewCount": "150"
+                    "reviewCount": "150",
+                    "bestRating": "5",
+                    "worstRating": "1"
+                  },
+                  "nutrition": {
+                    "@type": "NutritionInformation",
+                    "calories": "350 per 100g",
+                    "proteinContent": "8-10g per 100g (Double that of common rice)",
+                    "carbohydrateContent": "75g per 100g",
+                    "fiberContent": "2-3g per 100g"
                   },
                   "additionalProperty": [
                     {
                       "@type": "PropertyValue",
                       "name": "Protein Content",
-                      "value": "Double that of common rice"
+                      "value": "Double that of common rice (8-10g per 100g)"
                     },
                     {
                       "@type": "PropertyValue",
                       "name": "Glycemic Index",
-                      "value": "Less than 55"
+                      "value": "Less than 55 (Diabetic-friendly)"
+                    },
+                    {
+                      "@type": "PropertyValue",
+                      "name": "Iron Content",
+                      "value": "Rich in iron and zinc minerals"
                     },
                     {
                       "@type": "PropertyValue",
                       "name": "Certification",
                       "value": "Geographical Indication (GI) Tag 2012"
+                    },
+                    {
+                      "@type": "PropertyValue",
+                      "name": "Origin",
+                      "value": "Nepal and India (Buddhist period 600 BC)"
+                    },
+                    {
+                      "@type": "PropertyValue",
+                      "name": "Color",
+                      "value": "Black husk with aromatic properties"
                     }
                   ]
                 }
