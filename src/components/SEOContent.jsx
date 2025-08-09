@@ -14,12 +14,12 @@ const SEOContent = () => {
           <div className='grid md:grid-cols-2 gap-6'>
             <div className='bg-[#FFF8F2] border border-[#FFE6CE] rounded-lg p-6'>
               <h3 className='text-xl font-semibold mb-3 text-[#762023]'>What is Kalanamak rice?</h3>
-              <p><strong>Kalanamak rice</strong> is a premium <strong>black aromatic rice</strong> variety also known as <strong>Buddha rice</strong>. It's an ancient grain from Nepal and India with exceptional health benefits.</p>
+              <p><strong>Kalanamak rice</strong> is a premium <strong>black aromatic rice</strong> variety also known as <strong>Buddha rice</strong>. It&apos;s an ancient grain from Nepal and India with exceptional health benefits.</p>
             </div>
             
             <div className='bg-[#FFF8F2] border border-[#FFE6CE] rounded-lg p-6'>
               <h3 className='text-xl font-semibold mb-3 text-[#762023]'>Why is it called Buddha rice?</h3>
-              <p>According to legend, Buddha gave grains of this <strong>aromatic rice</strong> to villagers, saying it would remind people of him. Hence, it's called <strong>Buddha rice</strong>.</p>
+              <p>According to legend, Buddha gave grains of this <strong>aromatic rice</strong> to villagers, saying it would remind people of him. Hence, it&apos;s called <strong>Buddha rice</strong>.</p>
             </div>
             
             <div className='bg-[#FFF8F2] border border-[#FFE6CE] rounded-lg p-6'>
