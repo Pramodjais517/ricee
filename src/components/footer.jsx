@@ -60,7 +60,7 @@ const Footer = () => {
         />
       </div>
       <div className=" absolute bottom-[2px] left-[50%] translate-x-[-50%] text-[1rem] text-[#5d5c5c] mob:text-[0.7rem]">
-        Copyright &copy; 2022 P&B Agro Foods-All Rights Reserved
+        Copyright &copy; 2025 P&B Agro Foods-All Rights Reserved
       </div>
     </div>
   );
