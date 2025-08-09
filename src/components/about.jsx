@@ -44,16 +44,16 @@ const About = () => {
             <div className=" flex flex-row-reverse gap-[40px] w-[100%] items-center md1:flex-col-reverse">
               <div className=" self-start w-[60%] md1:text-center md1:w-[100%]">
                 <span className=" font-bold ">Kalanamak rice</span> (also known as <strong>Buddha rice</strong>) is a premium <strong>black aromatic rice</strong> and <strong>healthy rice</strong> variety
-                of Nepal and India. The name "Kalanamak" translates to "black salt" (Kala = black; the
+                of Nepal and India. The name &quot;Kalanamak&quot; translates to &quot;black salt&quot; (Kala = black; the
                 suffix ‘namak’ means salt). This variety has been in cultivation
                 since the Buddhist period (600 BC). It was featured in the book
                 <b> Speciality rices of the world</b> by the Food and Agriculture
                 Organization of the <b>United Nations</b>. Chinese monk Faxian wrote
                 that when Buddha visited Kapilvastu (Siddharthnagar) for the first time after
-                attaining enlightenment, local villagers requested "Prasad" (a blessed gift),
+                attaining enlightenment, local villagers requested &quot;Prasad&quot; (a blessed gift),
                 Buddha blessed them with grains of <strong>kalanamak rice</strong> and instructed them to
-                cultivate it in marshy lands, saying, "It will possess a distinctive aroma
-                that will always remind people of me." In recognition of its cultural and agricultural significance, it was granted the
+                cultivate it in marshy lands, saying, &quot;It will possess a distinctive aroma
+                that will always remind people of me.&quot; In recognition of its cultural and agricultural significance, it was granted the
                 prestigious Geographical Indication (GI) Tag in 2012 by the Government of
                 India. This <strong>iron rich rice</strong> and <strong>zinc rich rice</strong> is exceptionally rich in essential micronutrients including iron and zinc. It
                 contains <strong>double the protein</strong> content compared to conventional rice varieties and maintains a <strong>low glycemic index</strong>, making it an ideal <strong>diabetic friendly rice</strong> choice for
