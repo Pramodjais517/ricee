@@ -38,9 +38,9 @@ const About = () => {
             </svg>
           </div>
           <div className=" flex flex-col w-[100%] gap-[15px]">
-            <div className=" text-[2.1rem] leading-[65px] tracking-[1.5px]  text-[#181717] md1:self-center">
-              Kalanamak rice
-            </div>
+            <h2 className=" text-[2.1rem] leading-[65px] tracking-[1.5px]  text-[#181717] md1:self-center">
+              About Kalanamak Rice
+            </h2>
             <div className=" flex flex-row-reverse gap-[40px] w-[100%] items-center md1:flex-col-reverse">
               <div className=" self-start w-[60%] md1:text-center md1:w-[100%]">
                 <span className=" font-bold ">Kalanamak</span> is a scented rice
@@ -61,7 +61,7 @@ const About = () => {
                 diabetics.
               </div>
               <div className=" w-[40%] min-w-[321px]  ">
-                <img src="new!.jpg" className=" rounded-[30px] " />
+                <img src="new!.jpg" alt="Premium Kalanamak rice grains showcasing quality and authenticity" className=" rounded-[30px] " />
               </div>
             </div>
           </div>
