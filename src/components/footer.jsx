@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
           <div className=" flex gap-[18px]">
             <img className=" inline" src="Mail.svg" />
-            <div>support@pbagrofoods.com</div>
+            <div>support@pbagrofoods.in</div>
           </div>
         </div>
         <div className="btn flex  gap-[29px]">
