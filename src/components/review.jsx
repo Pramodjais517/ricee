@@ -1,26 +1,48 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 const Review = () => {
-  const [crouselF, setCrouselF] = useState(0);
-  const [crouselS, setCrouselS] = useState(1);
-  const [crouselT, setCrouselT] = useState(2);
+  const [currentSlide, setCurrentSlide] = useState(0);
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setCrouselF((prev) => (prev + 1) % 3);
-      setCrouselS((prev) => (prev + 1) % 3);
-      setCrouselT((prev) => (prev + 1) % 3);
-    }, 5000);
+  const reviews = [
+    {
+      id: 1,
+      text: "I bought 13 kg of Kalanamak rice from P&B Agro Foods. The quality is amazing and very aromatic. I definitely recommend it if you are looking to buy authentic Kalanamak rice with great quality.",
+      // author: "Satisfied Customer"
+    },
+    {
+      id: 2,
+      text: "I recently tried the Kalanamak rice from P&B Agro Foods. It had a great aroma, delicious taste, and is a must try for anyone who appreciates a well-cooked rice. Highly recommended!!",
+      // author: "Happy Customer"
+    },
+    {
+      id: 3,
+      text: "I tried kheer of Kalanamak rice, and it was delicious. Strongly recommended for kheer.",
+      // author: "Rice Lover"
+    }
+  ];
 
-    return () => {
-      clearInterval(intervalId);
-    };
-  }, []);
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % reviews.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + reviews.length) % reviews.length);
+  };
+
+  const goToSlide = (index) => {
+    setCurrentSlide(index);
+  };
+
+  // Function to get review for each section
+  const getReviewForSection = (sectionIndex) => {
+    const reviewIndex = (currentSlide + sectionIndex) % reviews.length;
+    return reviews[reviewIndex];
+  };
 
   return (
-    <div className=" w-[100vw] h-[62.89vh] flex flex-col gap-[53.1px]  sm:[48vh]">
-      <div className="  flex flex-col items-center gap-[0px]">
+    <div className="w-[100vw] h-[62.89vh] flex flex-col gap-[53.1px] sm:[48vh]">
+      <div className="flex flex-col items-center gap-[0px]">
         <div className="text-[3rem] sm:text-[2.5rem] font-gd font-[400] leading-[57.6px]">
           Reviews
         </div>
@@ -49,85 +71,107 @@ const Review = () => {
           />
         </svg>
       </div>
-      <div className=" w-[100vw] flex flex-col gap-[20px] items-center justify-center">
-        <div className="par w-[100%] flex justify-center relative  overflow-hidden flex-shrink-0 text-[1.25rem] font-[400] leading-[30px] tracking-[0.6px] font-gd">
-          <div
-            className={`${
-              crouselF == 1
-                ? "crouselF"
-                : crouselF == 2
-                ? "crouselT"
-                : "crouselS"
-            } w-[56.6vw] items-center justify-center  flex flex-col gap-[2.61vh] sm:rounded-[12px]  h-[39.2vh] px-[3.33vw] pt-[18px] pb-[8px] bg-[#FFE6CE] rounded-[50px] flex-shrink-0  text-[#000] sm:h-[32vh] sm:w-[47vw] sm:flex sm:flex-col  sm:px-0 sm:py-[15px] sm:items-center sm:text-[12px] sm:leading-[18px] sm:tracking-[0.36px]  sm:text-center  `}
+      
+      <div className="w-[100vw] flex flex-col gap-[20px] items-center justify-center">
+        {/* Carousel Container */}
+        <div className="w-[100%] flex justify-center relative overflow-hidden">
+          {/* Navigation Arrows */}
+          <button
+            onClick={prevSlide}
+            className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-[#762023] text-white rounded-full w-12 h-12 flex items-center justify-center hover:bg-[#5a1a1a] transition-colors shadow-lg"
+            aria-label="Previous review"
           >
-            <img
-              src="comma.svg"
-              className=" w-[63px]  sm:h-[4.2vh] self-start "
-            />
-            <div className="  w-[38vw]  text-center self-center ">
-            I bought 13 kg of Kalanamak rice from P&B Agro Foods. The quality is amazing and very aromatic. I definitely recommend it if you are looking to buy authentic Kalanamak rice with great quality.            </div>
-            <img
-              src="comma2.svg"
-              className=" w-[63px] h-[53px] self-end md1:w-[70px]  sm:h-[4.2vh]"
-            />
-          </div>
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          
+          <button
+            onClick={nextSlide}
+            className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-[#762023] text-white rounded-full w-12 h-12 flex items-center justify-center hover:bg-[#5a1a1a] transition-colors shadow-lg"
+            aria-label="Next review"
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
 
-          <div
-            className={`${
-              crouselF == 1
-                ? "crouselS"
-                : crouselF == 2
-                ? "crouselF"
-                : "crouselT"
-            } w-[56.6vw] items-center justify-center  flex flex-col gap-[2.61vh] sm:rounded-[12px]  h-[39.2vh] px-[3.33vw] pt-[18px] pb-[8px] bg-[#FFE6CE] rounded-[50px] flex-shrink-0  text-[#000] sm:h-[32vh] sm:w-[47vw] sm:flex sm:flex-col  sm:px-0 sm:py-[15px] sm:items-center sm:text-[12px] sm:leading-[18px] sm:tracking-[0.36px]  sm:text-center  `}
-          >
-            <img
-              src="comma.svg"
-              className=" w-[63px]  sm:h-[4.2vh] self-start "
-            />
-            <div className="  w-[38vw]  text-center self-center ">
-            I recently tried the kalanamak rice from P&B Agro foods. It had a great aroma, delicious taste, and is a must try for anyone who appreciates a well-cooked rice. Highly recommended!!
+          {/* Three Review Sections */}
+          <div className="flex gap-6 transition-transform duration-500 ease-in-out">
+            {/* First Section */}
+            <div className="w-[56.6vw] flex-shrink-0 flex flex-col items-center justify-center gap-[2.61vh] sm:rounded-[12px] h-[39.2vh] px-[3.33vw] pt-[18px] pb-[8px] bg-[#FFE6CE] rounded-[50px] text-[#000] sm:h-[32vh] sm:w-[47vw] sm:px-0 sm:py-[15px] sm:text-[12px] sm:leading-[18px] sm:tracking-[0.36px] sm:text-center">
+              <img
+                src="comma.svg"
+                alt="Opening quote"
+                className="w-[63px] sm:h-[4.2vh] self-start"
+              />
+              <div className="w-[38vw] text-center self-center">
+                {getReviewForSection(0).text}
+              </div>
+              <img
+                src="comma2.svg"
+                alt="Closing quote"
+                className="w-[63px] h-[53px] self-end md1:w-[70px] sm:h-[4.2vh]"
+              />
+              <div className="text-sm text-[#762023] font-medium mt-2">
+                - {getReviewForSection(0).author}
+              </div>
             </div>
-            <img
-              src="comma2.svg"
-              className=" w-[63px] h-[53px] self-end md1:w-[70px]  sm:h-[4.2vh]"
-            />
-          </div>
-          <div
-            className={`${
-              crouselF == 1
-                ? "crouselT"
-                : crouselF == 2
-                ? "crouselS"
-                : "crouselF"
-            } w-[56.6vw] items-center justify-center  flex flex-col gap-[2.61vh] sm:rounded-[12px]  h-[39.2vh] px-[3.33vw] pt-[18px] pb-[8px] bg-[#FFE6CE] rounded-[50px] flex-shrink-0  text-[#000] sm:h-[32vh] sm:w-[47vw] sm:flex sm:flex-col  sm:px-0 sm:py-[15px] sm:items-center sm:text-[12px] sm:leading-[18px] sm:tracking-[0.36px]  sm:text-center  `}
-          >
-            <img
-              src="comma.svg"
-              className=" w-[63px]  sm:h-[4.2vh] self-start "
-            />
-            <div className="  w-[38vw]  text-center self-center ">
-            I tried kheer of Kalanamak rice, and it was delicious. Strongly recommended for kheer.
+
+            {/* Second Section */}
+            <div className="w-[56.6vw] flex-shrink-0 flex flex-col items-center justify-center gap-[2.61vh] sm:rounded-[12px] h-[39.2vh] px-[3.33vw] pt-[18px] pb-[8px] bg-[#FFE6CE] rounded-[50px] text-[#000] sm:h-[32vh] sm:w-[47vw] sm:px-0 sm:py-[15px] sm:text-[12px] sm:leading-[18px] sm:tracking-[0.36px] sm:text-center">
+              <img
+                src="comma.svg"
+                alt="Opening quote"
+                className="w-[63px] sm:h-[4.2vh] self-start"
+              />
+              <div className="w-[38vw] text-center self-center">
+                {getReviewForSection(1).text}
+              </div>
+              <img
+                src="comma2.svg"
+                alt="Closing quote"
+                className="w-[63px] h-[53px] self-end md1:w-[70px] sm:h-[4.2vh]"
+              />
+              <div className="text-sm text-[#762023] font-medium mt-2">
+                - {getReviewForSection(1).author}
+              </div>
             </div>
-            <img
-              src="comma2.svg"
-              className=" w-[63px] h-[53px] self-end md1:w-[70px]  sm:h-[4.2vh]"
-            />
+
+            {/* Third Section */}
+            <div className="w-[56.6vw] flex-shrink-0 flex flex-col items-center justify-center gap-[2.61vh] sm:rounded-[12px] h-[39.2vh] px-[3.33vw] pt-[18px] pb-[8px] bg-[#FFE6CE] rounded-[50px] text-[#000] sm:h-[32vh] sm:w-[47vw] sm:px-0 sm:py-[15px] sm:text-[12px] sm:leading-[18px] sm:tracking-[0.36px] sm:text-center">
+              <img
+                src="comma.svg"
+                alt="Opening quote"
+                className="w-[63px] sm:h-[4.2vh] self-start"
+              />
+              <div className="w-[38vw] text-center self-center">
+                {getReviewForSection(2).text}
+              </div>
+              <img
+                src="comma2.svg"
+                alt="Closing quote"
+                className="w-[63px] h-[53px] self-end md1:w-[70px] sm:h-[4.2vh]"
+              />
+              <div className="text-sm text-[#762023] font-medium mt-2">
+                - {getReviewForSection(2).author}
+              </div>
+            </div>
           </div>
         </div>
-        <div className=" flex gap-[8px]">
-          <div
-            className="w-[24px] h-[8px] rounded-[4px] border border-solid border-[#762023]"
-            style={crouselF == 0 ? { background: "#762023" } : null}
-          ></div>
-          <div
-            className="w-[24px] h-[8px] rounded-[4px] border border-solid border-[#762023]"
-            style={crouselF == 1 ? { background: "#762023" } : null}
-          ></div>
-          <div
-            className="w-[24px] h-[8px] rounded-[4px] border border-solid border-[#762023]"
-            style={crouselF == 2 ? { background: "#762023" } : null}
-          ></div>
+
+        {/* Dots Indicator */}
+        <div className="flex gap-[8px]">
+          {reviews.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => goToSlide(index)}
+              className={`w-[24px] h-[8px] rounded-[4px] border border-solid border-[#762023] transition-colors ${
+                currentSlide === index ? 'bg-[#762023]' : 'hover:bg-[#FFE6CE]'
+              }`}
+              aria-label={`Go to review ${index + 1}`}
+            />
+          ))}
         </div>
       </div>
     </div>

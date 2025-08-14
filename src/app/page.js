@@ -18,7 +18,7 @@ export default function Home() {
           <Health/>
         </section>
         <section aria-label="Our Premium Kalanamak Rice Buddha Rice Products" id="products">
-          <Products/>
+          <Products isMainPage={true}/>
         </section>
         <section aria-label="About Kalanamak Rice Buddha Rice Black Aromatic Rice" id="about">
           <About/>

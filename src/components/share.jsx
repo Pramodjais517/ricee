@@ -27,7 +27,7 @@ const Share = () => {
         >
           <img src="logo.svg"></img>
           <div className="btn  font-[400] font-gd leading-[19.2px] tracking-[0.48px] not-italic text-[1git rem] cursor-pointer whitespace-nowrap">
-            Whatsapp Now
+            WhatsApp Now
           </div>
         </button>
       </div>

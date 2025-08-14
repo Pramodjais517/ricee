@@ -57,7 +57,7 @@ Rich in Iron & Zinc<br/>Diabetic friendly (GI {'<'} 55)<br/>Rich in Antioxidants
 <div className="relative flex gap-[0.1rem] flex-col justify-center  p-[1rem] pl-[1.5rem] rounded-[0.75rem] bg-[#FFF8F2] w-[13.2rem] h-[12.25rem]">
 <div className="absolute left-0 top-[44%] transform -translate-x-1/2 translate-y-1/2 rotate-45 w-4 h-4 bg-[#FFF8F2]">
 </div>
-<span className=" block">Energy : 391 kcals</span>  <span className=" block">Protien : 9.60 gm</span> <span className=" block">Carbs
+<span className=" block">Energy : 391 kcals</span>  <span className=" block">Protein : 9.60 gm</span> <span className=" block">Carbs
             : 92.90gm </span> <span className=" block">Iron : 38.20 mg</span><span className=" block">Zinc : 3.70 mg</span> 
 </div>
 </div>
@@ -162,7 +162,7 @@ Limited offer
           <div className=" flex gap-[3rem] ml-[2rem]">
             <div className=" text-[20px] w-[14.8rem] leading-[30px]">
               Nutritional Facts (100g) Energy : 391 kcals{" "}
-              <span className=" block">Protien : 9.60 gm</span>{" "}
+              <span className=" block">Protein : 9.60 gm</span>{" "}
               <span className=" block">Carbs : 92.90gm </span>{" "}
               <span className=" block">Iron : 38.20 mg</span>
               <span className=" block">Zinc : 3.70 mg</span>

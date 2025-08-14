@@ -91,7 +91,7 @@ const Popup = ({onClose,show}) => {
         </div>
         <div className=" flex gap-[3rem] mob:gap-[1.5rem] ml-[2rem] mob1:ml-[0.5rem]">
           <div className=" text-[20px]  w-[14.8rem] mob:w-[13rem] leading-[30px] whitespace-nowrap">
-            Nutritional Facts (100g) <span className=" block">Energy : 391 kcals</span>  <span className=" block">Protien : 9.60 gm</span> <span className=" block">Carbs
+            Nutritional Facts (100g) <span className=" block">Energy : 391 kcals</span>  <span className=" block">Protein : 9.60 gm</span> <span className=" block">Carbs
             : 92.90gm </span> <span className=" block">Iron : 38.20 mg</span><span className=" block">Zinc : 3.70 mg</span> 
           </div>
           <div onClick={() => {onClose();

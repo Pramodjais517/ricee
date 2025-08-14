@@ -17,6 +17,9 @@ function Header() {
        <div className='flex items-center gap-2 leading-none'><Image src={logo1} className='h-[3.2rem] w-[3.2rem]'/> P&B  Agro  Foods
        </div></NextLink></div>
     <div className='flex font-gsmt text-[1.0625rem] sm:hidden gap-[3rem]'>
+    <NextLink href="/" className='cursor-pointer hover:text-[#FFE6CE] transition-colors'>
+Home
+</NextLink>
     <NextLink href="/about" className='cursor-pointer hover:text-[#FFE6CE] transition-colors'>
 About
 </NextLink>
@@ -36,6 +39,9 @@ Reviews
 <Image onClick={()=>setHamburger(!hamburger)} className='hidden sm:inline cursor-pointer' src={hamburgerimg}/>
     </div>
     {<div  className={`hidden sm:flex sm:${hamburger ? 'w-[10rem]' : 'w-[10rem] right-[-10rem]'} gap-2 bg-white text-[1.25rem] flex-col absolute right-0 transition-all duration-300 ease-in`}>
+    <NextLink href="/" onClick={()=>setHamburger(!hamburger)} className='cursor-pointer py-[0.3rem] pl-[1rem] hover:bg-gray-100 transition-colors'>
+Home
+</NextLink>
     <NextLink href="/about" onClick={()=>setHamburger(!hamburger)} className='cursor-pointer py-[0.3rem] pl-[1rem] hover:bg-gray-100 transition-colors'>
 About
 </NextLink>

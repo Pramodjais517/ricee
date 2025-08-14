@@ -18,7 +18,7 @@ export default function HealthBenefitsPage() {
     <div className="font-gd font-light overflow-x-hidden relative scroll-smooth bg-[#FFF8F2]">
       <Header/>
       <main>
-        <div className="pt-20 pb-8">
+        <div className="pt-16 pb-8">
           {/* <div className="max-w-6xl mx-auto px-4">
             <h1 className="text-4xl font-bold text-center mb-4 text-[#762023]">
               Health Benefits of Kalanamak Rice
