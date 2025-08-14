@@ -21,14 +21,14 @@ export default function AboutPage() {
       <Breadcrumb/>
       <main>
         <div className="pt-20 pb-8">
-          <div className="max-w-6xl mx-auto px-4">
+          {/* <div className="max-w-6xl mx-auto px-4">
             <h1 className="text-4xl font-bold text-center mb-4 text-[#762023]">
               About Kalanamak Rice - Buddha Rice
             </h1>
             <p className="text-lg text-center text-gray-600 mb-8">
               Discover the ancient history and remarkable story behind this legendary black aromatic rice
             </p>
-          </div>
+          </div> */}
         </div>
         <section aria-label="About Kalanamak Rice Buddha Rice Black Aromatic Rice">
           <About/>

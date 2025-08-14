@@ -57,22 +57,6 @@ function Products() {
 </div>
 </div>
 
-{/* Additional SEO content and internal links */}
-<div className='mt-12 max-w-4xl mx-auto text-center'>
-  <h3 className='text-2xl font-semibold mb-6 text-[#762023]'>Learn More About Kalanamak Rice</h3>
-  <div className='grid md:grid-cols-3 gap-6'>
-    <NextLink href="/health-benefits" className='bg-[#762023] text-white px-6 py-3 rounded-lg hover:bg-[#5a1a1a] transition-colors'>
-      Health Benefits
-    </NextLink>
-    <NextLink href="/about" className='bg-[#762023] text-white px-6 py-3 rounded-lg hover:bg-[#5a1a1a] transition-colors'>
-      About Buddha Rice
-    </NextLink>
-    <NextLink href="/faq" className='bg-[#762023] text-white px-6 py-3 rounded-lg hover:bg-[#5a1a1a] transition-colors'>
-      FAQ
-    </NextLink>
-  </div>
-</div>
-
     </div>
   );
 }

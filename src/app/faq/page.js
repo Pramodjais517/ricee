@@ -19,14 +19,14 @@ export default function FAQPage() {
       <Header/>
       <main>
         <div className="pt-20 pb-8">
-          <div className="max-w-6xl mx-auto px-4">
+          {/* <div className="max-w-6xl mx-auto px-4">
             <h1 className="text-4xl font-bold text-center mb-4 text-[#762023]">
               Frequently Asked Questions
             </h1>
             <p className="text-lg text-center text-gray-600 mb-8">
               Everything you need to know about Kalanamak rice (Buddha rice)
             </p>
-          </div>
+          </div> */}
         </div>
         <section aria-label="FAQ and Comparison - Kalanamak Rice Information">
           <SEOContent/>

@@ -19,14 +19,14 @@ export default function HealthBenefitsPage() {
       <Header/>
       <main>
         <div className="pt-20 pb-8">
-          <div className="max-w-6xl mx-auto px-4">
+          {/* <div className="max-w-6xl mx-auto px-4">
             <h1 className="text-4xl font-bold text-center mb-4 text-[#762023]">
               Health Benefits of Kalanamak Rice
             </h1>
             <p className="text-lg text-center text-gray-600 mb-8">
               Why this ancient black aromatic rice is considered the healthiest rice variety
             </p>
-          </div>
+          </div> */}
         </div>
         <section aria-label="Health Benefits of Kalanamak Rice Buddha Rice Black Aromatic Rice">
           <Health/>

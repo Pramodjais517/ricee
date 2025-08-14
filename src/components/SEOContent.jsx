@@ -45,15 +45,15 @@ const SEOContent = () => {
               <p>The <strong>Geographical Indication (GI) tag</strong> was awarded in 2012, recognizing Kalanamak rice as a unique product from specific regions of Nepal and India.</p>
             </div>
             
-            <div className='bg-[#FFF8F2] border border-[#FFE6CE] rounded-lg p-6'>
+            {/* <div className='bg-[#FFF8F2] border border-[#FFE6CE] rounded-lg p-6'>
               <h3 className='text-xl font-semibold mb-3 text-[#762023]'>How to store Kalanamak rice?</h3>
               <p>Store in an airtight container in a cool, dry place. For longer shelf life, keep in the refrigerator. Avoid exposure to moisture and direct sunlight.</p>
-            </div>
+            </div> */}
             
-            <div className='bg-[#FFF8F2] border border-[#FFE6CE] rounded-lg p-6'>
+            {/* <div className='bg-[#FFF8F2] border border-[#FFE6CE] rounded-lg p-6'>
               <h3 className='text-xl font-semibold mb-3 text-[#762023]'>Is it suitable for weight loss?</h3>
               <p>Yes! The <strong>low glycemic index</strong> and high fiber content make it excellent for weight management and maintaining stable blood sugar levels.</p>
-            </div>
+            </div> */}
           </div>
 
           {/* More FAQ items */}
@@ -63,61 +63,14 @@ const SEOContent = () => {
               <p>Rich in <strong>protein, iron, zinc, antioxidants</strong>, and dietary fiber. Contains essential minerals and vitamins that support overall health and immunity.</p>
             </div>
             
-            <div className='bg-[#FFF8F2] border border-[#FFE6CE] rounded-lg p-6'>
+            {/* <div className='bg-[#FFF8F2] border border-[#FFE6CE] rounded-lg p-6'>
               <h3 className='text-xl font-semibold mb-3 text-[#762023]'>Can children eat Kalanamak rice?</h3>
               <p>Absolutely! It&apos;s safe for children and provides essential nutrients for their growth and development. The soft texture makes it easy to digest.</p>
-            </div>
+            </div> */}
           </div>
         </section>
-
-        {/* Comparison Section */}
-        <section className='mb-12'>
-          <h2 className='text-3xl font-bold text-center mb-8 text-[#762023]'>
-            Kalanamak Rice vs Other Rice Varieties
-          </h2>
-          
-          <div className='overflow-x-auto'>
-            <table className='w-full border-collapse border border-[#FFE6CE] rounded-lg'>
-              <thead>
-                <tr className='bg-[#762023] text-white'>
-                  <th className='border border-[#FFE6CE] p-4 text-left'>Nutrient</th>
-                  <th className='border border-[#FFE6CE] p-4 text-left'>Kalanamak Rice</th>
-                  <th className='border border-[#FFE6CE] p-4 text-left'>White Rice</th>
-                  <th className='border border-[#FFE6CE] p-4 text-left'>Brown Rice</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className='bg-[#FFF8F2]'>
-                  <td className='border border-[#FFE6CE] p-4 font-semibold'>Protein</td>
-                  <td className='border border-[#FFE6CE] p-4'>8-10g (Double)</td>
-                  <td className='border border-[#FFE6CE] p-4'>4-5g</td>
-                  <td className='border border-[#FFE6CE] p-4'>6-7g</td>
-                </tr>
-                <tr className='bg-white'>
-                  <td className='border border-[#FFE6CE] p-4 font-semibold'>Iron</td>
-                  <td className='border border-[#FFE6CE] p-4'>3x More</td>
-                  <td className='border border-[#FFE6CE] p-4'>Low</td>
-                  <td className='border border-[#FFE6CE] p-4'>Moderate</td>
-                </tr>
-                <tr className='bg-[#FFF8F2]'>
-                  <td className='border border-[#FFE6CE] p-4 font-semibold'>Glycemic Index</td>
-                  <td className='border border-[#FFE6CE] p-4'>Under 55</td>
-                  <td className='border border-[#FFE6CE] p-4'>70-80</td>
-                  <td className='border border-[#FFE6CE] p-4'>55-65</td>
-                </tr>
-                <tr className='bg-white'>
-                  <td className='border border-[#FFE6CE] p-4 font-semibold'>Antioxidants</td>
-                  <td className='border border-[#FFE6CE] p-4'>High</td>
-                  <td className='border border-[#FFE6CE] p-4'>Low</td>
-                  <td className='border border-[#FFE6CE] p-4'>Moderate</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
-
         {/* Health Benefits Summary */}
-        <section className='mb-12'>
+        {/* <section className='mb-12'>
           <h2 className='text-3xl font-bold text-center mb-8 text-[#762023]'>
             Why Choose Kalanamak Rice?
           </h2>
@@ -141,7 +94,7 @@ const SEOContent = () => {
               <p className='text-gray-600'>Glycemic index under 55, perfect for diabetics</p>
             </div>
           </div>
-        </section>
+        </section> */}
 
       </div>
     </div>
