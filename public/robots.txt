@@ -9,9 +9,11 @@ Crawl-delay: 1
 
 # Priority pages for crawling
 Allow: /
-Allow: /#products
-Allow: /#about
-Allow: /#health-benefits
+Allow: /products
+Allow: /about
+Allow: /health-benefits
+Allow: /faq
+Allow: /reviews
 
 # Allow all major search engines
 User-agent: Googlebot
@@ -46,4 +48,20 @@ User-agent: anthropic-ai
 Disallow: /
 
 User-agent: Claude-Web
+Disallow: /
+
+# Block common scrapers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
 Disallow: /

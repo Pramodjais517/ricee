@@ -1,9 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",
     images: {
-        unoptimized: true
-    }
+        unoptimized: false
+    },
+    // Enable compression
+    compress: true,
+    // Enable powered by header
+    poweredByHeader: false,
 }
 
 module.exports = nextConfig
