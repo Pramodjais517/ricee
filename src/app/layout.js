@@ -93,12 +93,12 @@ export default function RootLayout({ children }) {
               "@graph": [
                 {
                   "@type": "Organization",
-                  "@id": "https://www.pbagrofoods.in/#organization",
+                  "@id": "https://pbagrofoods.in/#organization",
                   "name": "P&B Agro Foods",
-                  "url": "https://www.pbagrofoods.in",
+                  "url": "https://pbagrofoods.in",
                   "logo": {
                     "@type": "ImageObject",
-                    "url": "https://www.pbagrofoods.in/logo.png",
+                    "url": "https://pbagrofoods.in/logo.png",
                     "width": 200,
                     "height": 60
                   },
@@ -107,11 +107,15 @@ export default function RootLayout({ children }) {
                   "address": {
                     "@type": "PostalAddress",
                     "addressCountry": "IN",
-                    "addressRegion": "India"
+                    "addressRegion": "Uttar Pradesh",
+                    "addressLocality": "Siddharthnagar",
+                    "streetAddress": "Lumbini Road, Kakrahwa Bazar"
                   },
                   "contactPoint": {
                     "@type": "ContactPoint",
                     "contactType": "customer service",
+                    "telephone": "+91 9540182525",
+                    "email": "support@pbagrofoods.in",
                     "availableLanguage": ["English", "Hindi"]
                   },
                   "sameAs": [
@@ -121,19 +125,19 @@ export default function RootLayout({ children }) {
                 },
                 {
                   "@type": "WebSite",
-                  "@id": "https://www.pbagrofoods.in/#website",
-                  "url": "https://www.pbagrofoods.in",
+                  "@id": "https://pbagrofoods.in/#website",
+                  "url": "https://pbagrofoods.in",
                   "name": "P&B Agro Foods - Premium Kalanamak Rice | Buddha Rice | Black Rice",
                   "description": "Buy premium Kalanamak rice (Buddha rice) online - the healthiest black aromatic rice with double protein, rich in iron & zinc. Diabetic-friendly with low glycemic index.",
                   "publisher": {
-                    "@id": "https://www.pbagrofoods.in/#organization"
+                    "@id": "https://pbagrofoods.in/#organization"
                   },
                   "potentialAction": [
                     {
                       "@type": "SearchAction",
                       "target": {
                         "@type": "EntryPoint",
-                        "urlTemplate": "https://www.pbagrofoods.in/search?q={search_term_string}"
+                        "urlTemplate": "https://pbagrofoods.in/search?q={search_term_string}"
                       },
                       "query-input": "required name=search_term_string"
                     }
@@ -141,7 +145,7 @@ export default function RootLayout({ children }) {
                 },
                 {
                   "@type": "Product",
-                  "@id": "https://www.pbagrofoods.in/#kalanamak-rice",
+                  "@id": "https://pbagrofoods.in/#kalanamak-rice",
                   "name": "Premium Kalanamak Rice - Buddha Rice",
                   "alternateName": ["Buddha Rice", "Black Rice", "Kalanamak Rice", "Black Salt Rice", "Scented Rice", "Aromatic Rice", "Healthy Rice", "Forbidden Rice"],
                   "description": "Premium Kalanamak rice (Buddha rice) - the healthiest black aromatic rice with double protein content, rich in iron and zinc. Diabetic-friendly with low glycemic index under 55. Ancient variety with GI tag certification from Nepal and India.",
