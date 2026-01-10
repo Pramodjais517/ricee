@@ -217,6 +217,62 @@ export default function RootLayout({ children }) {
                       "value": "Black husk with aromatic properties"
                     }
                   ]
+                },
+                {
+                  "@type": "FAQPage",
+                  "@id": "https://www.pbagrofoods.in/#faq",
+                  "mainEntity": [
+                    {
+                      "@type": "Question",
+                      "name": "What is Kalanamak rice and why is it called Buddha rice?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Kalanamak rice is a premium black aromatic rice variety also known as Buddha rice. It's an ancient grain from Nepal and India with exceptional health benefits."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "Is Kalanamak rice good for diabetics?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes! This diabetic friendly rice has a low glycemic index (under 55), making it excellent for blood sugar management."
+                      }
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "How to cook Kalanamak rice?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Rinse the rice thoroughly, use 1:2 ratio (rice:water), soak for 30 minutes, then cook on low flame for 20-25 minutes until fluffy and aromatic."
+                      }
+                    }
+                  ]
+                },
+                {
+                  "@type": "HowTo",
+                  "@id": "https://www.pbagrofoods.in/#how-to-cook",
+                  "name": "How to Cook Kalanamak Rice",
+                  "description": "Step-by-step guide to cook perfect Kalanamak rice",
+                  "step": [
+                    {
+                      "@type": "HowToStep",
+                      "name": "Rinse Rice",
+                      "text": "Thoroughly rinse the Kalanamak rice under cold water until water runs clear"
+                    },
+                    {
+                      "@type": "HowToStep",
+                      "name": "Soak Rice",
+                      "text": "Soak the rinsed rice in water for 30 minutes"
+                    },
+                    {
+                      "@type": "HowToStep",
+                      "name": "Cook Rice",
+                      "text": "Use 1:2 ratio (rice:water), cook on low flame for 20-25 minutes until fluffy"
+                    }
+                  ],
+                  "totalTime": "PT55M",
+                  "prepTime": "PT30M",
+                  "cookTime": "PT25M"
                 }
               ]
             })
