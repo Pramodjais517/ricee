@@ -52,7 +52,7 @@ function Products({ isMainPage = false }) {
 <div className='mt-[5rem]'>
 <div className='mx-[-7.5rem] flex gap-[6rem] md1:my-[-13rem] lg:my-[-6rem] transform mob:scale-70 mob:my-[-14.5rem] lg:scale-75 scale-90 my-[-2.75rem] items-center justify-center flex-wrap'>
     <Product imagesData={imagesData1} price={399} discount={0.125}weight={2} background={background1} text1={'Premium Kalanamak Rice - 1kg'} />
-    <Product imagesData={imagesData} price={1999} discount={0.1999} weight={5} background={background2} text1={'Premium Kalanamak Rice - 5kg'} />
+    <Product imagesData={imagesData} price={1999} discount={0.1995} weight={5} background={background2} text1={'Premium Kalanamak Rice - 5kg'} />
 
 </div>
 </div>
